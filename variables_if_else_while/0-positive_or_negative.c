@@ -1,33 +1,31 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
-* main -  This a C program that prints if the numbers are positiva or negative.
-*
-* Return: Always 0.
-*
-* more headers goes there
-*
-* betty style doc for function main goes there
-*/
+#include <stdio.h>
+
+/**
+ *  main - Prints a random number when the number stored in the variable n
+ *         is positive or negative, or zero.
+ *  Return: Always 0.
+ */
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 	{
-		printf("%i is positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%i is zero\n", n);
+		printf("%d is zero\n", n);
 	}
-	else
+	else if (n < 0)
 	{
-		printf("%i is negative\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
-
