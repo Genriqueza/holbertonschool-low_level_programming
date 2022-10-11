@@ -6,6 +6,7 @@
  * main - Prints the alphabet in lowercase and uppercase
  *
  * Return: Always 0.
+ *
  */
 
 int main(void)
