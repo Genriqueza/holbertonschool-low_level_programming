@@ -1,0 +1,2 @@
+# Make all == makes executable all:
+ 	gcc school.c main.c -o school
