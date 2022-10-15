@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - Prints a triangle with "#" character,
+ * print_triangle - Prints a triangle with # character,
  * followed by a new line.
  * @size : size of triangle.
  */
@@ -23,7 +23,7 @@ void print_triangle(int size)
 				else
 				{
 					_putchar('#');
-																			}
+				}
 			}
 			_putchar('\n');
 		}
